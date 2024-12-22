@@ -1,0 +1,60 @@
+<!--сообщаем браузеру, как стоит обрабатывать эту страницу-->
+<!DOCTYPE html>
+<!--оболочка документа, указываем язык содержимого-->
+<html lang="ru">
+<!--заголовок страницы, контейнер для других важных данных (не отображается)-->
+<head>
+    <!--заголовок страницы в браузере-->
+    <title>"Элементы форм"</title>
+    <!--подключаем CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--кодировка страницы-->
+    <meta charset="utf-8">
+    <!--адаптив-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+<!--отображаемое тело страницы-->
+<body>
+<!--оболочка для демонстрации-->
+<div class="wrapper">
+    <!--контент-->
+    <form action="#" class="block-form">
+        <div class="block-form_title">Стили элементов форм</div>
+        <div class="block-form_input">
+            <div class="checkbox">
+                Выключатель №1
+                <input type="checkbox" checked name="namecheckbox_1">
+            </div>
+        </div>
+        <div class="block-form_input">
+            <div class="checkbox">
+                Выключатель №2
+                <input type="checkbox" name="namecheckbox_2">
+            </div>
+        </div>
+        <div class="block-form_input">
+            <div class="radiobuttons">
+                <div class="radiobuttons_item">
+                    Вариант №1
+                    <input type="radio" value="1" checked name="nameradio_1">
+                    <!--checked - по умолчанию тут будет чек-->
+                </div>
+                <div class="radiobuttons_item">
+                    Вариант №2
+                    <input type="radio" value="2" name="nameradio_1">
+                </div>
+                <div class="radiobuttons_item">
+                    Вариант №3
+                    <input type="radio" value="3" name="nameradio_1">
+                </div>
+            </div>
+        </div>
+        <button class="button" type="submit">Отправить форму</button>
+    </form>
+</div>
+<!--подключаем jQuery-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<!--подключаем файл JS скриптов-->
+<script src="script.js"></script>
+</body>
+</html>
