@@ -1,7 +1,13 @@
-# Радиокнопка, чекбокс
+# 🌕 Радиокнопка, чекбокс 🌞
 
 Источник: видео "Стилизация чекбоксов и радиокнопок на CSS HTML jQuery // Как это сделать? // Фрилансер по жизни" 
 https://vkvideo.ru/video-125918837_456239138?sel=19460369
+
+![2024-12-22_21-32-18](https://github.com/user-attachments/assets/87e03cf9-69c4-4756-bedd-6dbb2a2f1bc9)
+
+
+https://github.com/user-attachments/assets/52a3860e-f4c6-488d-a8a0-3795f3bcab27
+
 
 1. создаем проект в программе "WebStorm" для работы с JavaScript (скачать бесплатную версию 
 https://www.jetbrains.com/webstorm/)
@@ -99,6 +105,9 @@ https://www.jetbrains.com/webstorm/)
 <button class="button" type="submit">Отправить форму</button>
 ```
 
+![8](https://github.com/user-attachments/assets/d5573699-cf15-455c-936e-902ccfebb043)
+
+
 9. в файл style.css вставляем шаблон
 
 ```css
@@ -162,6 +171,9 @@ $(document).ready(function () {
     
 });
 ```
+
+![11](https://github.com/user-attachments/assets/7c6043b8-4415-46bf-9551-4fff0f778847)
+
 
 13. в файл script.js, чтобы связать элементы класса div в css c циклом for в скрипте
 Для начала с помощью input проверяем чекбоксы
@@ -285,6 +297,9 @@ $(document).ready(function () {
     left: 25px;
 }
 ```
+
+![20](https://github.com/user-attachments/assets/39a7d56d-13fc-4df5-8419-a60199ac8528)
+
 
 21. в файле script.js в $(document).ready создаем логику на радиокнопки 
 
@@ -712,6 +727,13 @@ body{
 }
 ```
 
+![2024-12-22_21-30-08](https://github.com/user-attachments/assets/64c921e9-74e4-43fd-8801-f1da03fe641f)
+![2024-12-22_21-30-27](https://github.com/user-attachments/assets/b3863ef0-4b8c-46ce-9816-84bab6cedf92)
+![2024-12-22_21-30-43](https://github.com/user-attachments/assets/215d323e-5aff-4318-9073-995ac87d199d)
+![2024-12-22_21-31-00](https://github.com/user-attachments/assets/b6274ad6-2a42-444b-8ca9-be0d7828f0f8)
+![2024-12-22_21-31-15](https://github.com/user-attachments/assets/cb814226-3da5-4a5d-a8cf-820755679725)
+
+
 2. в файле index.html
 
 ```html
@@ -777,6 +799,10 @@ body{
 </html>
 ```
 
+![2024-12-22_21-31-32](https://github.com/user-attachments/assets/06a25827-1dc9-480a-a3f9-a5996a7c14d0)
+![2024-12-22_21-31-58](https://github.com/user-attachments/assets/ddd74318-f362-4efb-950d-2e1f37144fa7)
+
+
 3. в файле script.js
 
 ```js
@@ -814,3 +840,5 @@ $(document).ready(function () {
     });
 });
 ```
+
+![2024-12-22_21-29-48](https://github.com/user-attachments/assets/00e39c0a-1c68-45fa-97b0-5ad71ecd9235)
